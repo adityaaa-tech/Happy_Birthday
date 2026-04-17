@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Birthday ❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- SCREEN 1 -->
+<div class="screen active" id="screen1">
+    <h2>Enter Passcode 🔐</h2>
+
+    <div class="code-display">
+        <span></span><span></span><span></span><span></span>
+    </div>
+
+    <div class="keypad">
+        <button>1</button><button>2</button><button>3</button>
+        <button>4</button><button>5</button><button>6</button>
+        <button>7</button><button>8</button><button>9</button>
+        <button>*</button><button>0</button><button>#</button>
+    </div>
+
+    <button id="nextBtn">Next ❤️</button>
+</div>
+
+<!-- SCREEN 2 -->
+<div class="screen" id="screen2">
+    <h1 class="title">Happy Birthday ❤</h1>
+    <div class="image-box">
+        <img src="image1.jpeg">
+    </div>
+    <h2>Are you ready Khushipaglu? 😏</h2>
+    <div class="btn-group">
+        <button id="yesBtn">Yes ❤️</button>
+        <button id="noBtn">No 😒</button>
+    </div>
+</div>
+
+<!-- SCREEN 3 -->
+<div class="screen" id="screen3">
+    <h1>HOW DARE YOU 😡</h1>
+    <div class="angry-face">😤😤😤</div>
+    <button id="tryBtn">Try Again 🔁</button>
+</div>
+
+<!-- SCREEN 4 -->
+<div class="screen" id="screen4">
+    <h1 class="gift-text">Choose your gift wisely 🎁</h1>
+    <div class="gift-grid" id="giftGrid"></div>
+    <button id="finalNext">Next 💌</button>
+</div>
+
+<!-- SCREEN 5 -->
+<div class="screen" id="screen5">
+    <h1 class="bomb-text">💣 BOOM 💥</h1>
+    <h2 class="bomb-sub">Better luck next time 😂</h2>
+</div>
+
+<!-- SCREEN 6 -->
+<div class="screen" id="screen6">
+    <div class="love-container">
+        <h1>I love you!! ❤️</h1>
+    </div>
+</div>
+
+<!-- POPUP -->
+<div id="popup" class="popup">
+    <span id="closePopup">&times;</span>
+    <img id="popupImg">
+</div>
+
+<!-- 🎶 MUSIC -->
+<audio id="bgMusic" loop>
+    <source src="kaun.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
